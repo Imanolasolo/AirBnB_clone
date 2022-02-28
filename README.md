@@ -83,7 +83,7 @@ The tasks in this repository cover:
 - All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`.
 - All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`.
 	
-## Installation
+## Installation :computer:
 	
 - Clone this repository: `git clone "https://github.com/Alexoat76/AirBnB_clone"`	
 - Access AirBnb directory: `cd AirBnB_clone.`
