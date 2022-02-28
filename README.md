@@ -76,43 +76,43 @@ The tasks in this repository cover:
 *Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
 	
-All files should end with a new line
+*All files should end with a new line
 <div style="text-align: justify">
 	
-All test files should be inside a folder `tests`
+*All test files should be inside a folder `tests`
 <div style="text-align: justify">
 
-You have to use the unittest module
+*You have to use the unittest module
 <div style="text-align: justify">
 
-All test files should be python files `(extension: .py)`
+*All test files should be python files `(extension: .py)`
 <div style="text-align: justify">
 
-All test files and folders should start by `test_`
+*All test files and folders should start by `test_`
 <div style="text-align: justify">
 	
-The file organization in the tests folder should be the same as your project
+*The file organization in the tests folder should be the same as your project
 <div style="text-align: justify">
 	
-e.g., For `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
+*`e.g.`, For `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
 <div style="text-align: justify">
 
-e.g., For `models/user.py`, unit tests must be in: `tests/test_models/test_user.py`
+*`e.g.`, For `models/user.py`, unit tests must be in: `tests/test_models/test_user.py`
 <div style="text-align: justify">
 
-All tests should be executed by using this command: `python3 -m unittest discover tests`
+*All tests should be executed by using this command: `python3 -m unittest discover tests`
 <div style="text-align: justify">
 
-You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base_model.py`
+*You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base_model.py`
 <div style="text-align: justify">
 
-All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+*All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
 <div style="text-align: justify">
 		
-All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+*All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
 <div style="text-align: justify">
 
-All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
+*All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
 	
 ## Usage :pushpin:
 	
