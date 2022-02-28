@@ -3,7 +3,7 @@
 
 Thank you for visiting this repository which contain the first step towards building first full web application: the AirBnB clone. The project currently only implements the back-end console. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
 
-![hbnb](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220228%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220228T144552Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f4e296e1f61296ecd78047b552341e1e3a9d4a72ec9884b428453612f1fa95b2)
+![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
 	
 # Getting Started :running:	
 <div style="text-align: justify">
