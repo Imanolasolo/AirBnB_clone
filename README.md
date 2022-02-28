@@ -1,7 +1,10 @@
 # 0x00. AirBnB clone - The console
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain the first step towards building first full web application: the AirBnB clone. The project currently only implements the back-end console. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
+Thank you for visiting this repository which contain the `first step` towards building first `full web application`: the `AirBnB clone`. 
+<div style="text-align: justify">
+	
+The project currently only implements the back-end `console`. The goal of the project is to deploy on your server a simple copy of the `AirBnB website`.
 
 ![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
 	
@@ -11,7 +14,7 @@ Thank you for visiting this repository which contain the first step towards buil
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
-* [Projects](#projects)
+* [Tasks](#tasks)
 * [Credits](#credits)
 
 	
@@ -32,25 +35,129 @@ The tasks in this repository cover:
 
 	
 ## General :page_with_curl:
-<div style="text-align: justify">
-* Allowed editors: vi, vim, emacs. </div>
-<div style="text-align: justify">
-* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options: 
 	
-`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
+<div style="text-align: justify">
+
+*Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
 	
+*All files will be compiled on `Ubuntu 20.04` LTS using `python3`. </div>
+<div style="text-align: justify">
+	
+*All files should end with a new line.</div>	
+<div style="text-align: justify">
+	
+*The first line of all files should be exactly `#!/usr/bin/python3`. </div>
+<div style="text-align: justify">
+
 *A `README.md` file, at the root of the folder of the project is mandatory. </div>
-
 <div style="text-align: justify">
-* Your code should use the Betty. It will be checked using</div>
+	
+*The `code` should use the `pycodestyle` (version 2.7.*)</div>
+<div style="text-align: justify">
+	
+*All files must be executable</div>
+<div style="text-align: justify">
+	
+*The length of files will be tested using `wc`</div>
+<div style="text-align: justify">
+	
+*All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`</div>
+<div style="text-align: justify">
+	
+*All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`</div>
+<div style="text-align: justify">
+	
+*All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`</div>
 
-`betty-style.pl` and `betty-doc.pl`.</div>
+## Python Unit Tests :pushpin:
+<div style="text-align: justify">
 
-Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
+*Allowed editors: `vi`, `vim`, `emacs`. </div>
+<div style="text-align: justify">
+	
+All files should end with a new line
+<div style="text-align: justify">
+	
+All test files should be inside a folder `tests`
+<div style="text-align: justify">
 
+You have to use the unittest module
+<div style="text-align: justify">
 
+All test files should be python files `(extension: .py)`
+<div style="text-align: justify">
 
+All test files and folders should start by `test_`
+<div style="text-align: justify">
+	
+The file organization in the tests folder should be the same as your project
+<div style="text-align: justify">
+	
+e.g., For `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
+<div style="text-align: justify">
+
+e.g., For `models/user.py`, unit tests must be in: `tests/test_models/test_user.py`
+<div style="text-align: justify">
+
+All tests should be executed by using this command: `python3 -m unittest discover tests`
+<div style="text-align: justify">
+
+You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base_model.py`
+<div style="text-align: justify">
+
+All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+<div style="text-align: justify">
+		
+All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+<div style="text-align: justify">
+
+All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
+	
+## Usage :pushpin:
+	
+## Execution:
+	
+The shell should `work` like this in `interactive mode`:
+	
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```	
+
+But also in `non-interactive mode`:
+
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+```	
+	
 ## Credits
 
 ## Author(s):blue_book:
