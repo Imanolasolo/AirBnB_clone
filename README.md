@@ -133,7 +133,7 @@ $
 ```	
 
 	
-## Console Commands :pushpin:
+### Console Commands: :clipboard:
 	
 **`console.py`** - The console contains the entry point of the command interpreter. List of commands this console supports:
 -   **`quit`**  - Exits console.
