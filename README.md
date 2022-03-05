@@ -108,6 +108,8 @@ EOF  help  quit
 $
 ```	
 
+![interactive](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/Console_AirBnB_clone.gif?raw=true)
+
 But also in `non-interactive mode`:
 
 ```
