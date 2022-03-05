@@ -42,12 +42,12 @@ class HBNBCommand(cmd.Cmd):
     Attributes:
         prompt (str): The command prompt.
     """
-    intro = ("\n =================================="
-             "                                   \n|"
-             "    Welcome to AirBnB Clone CLI.  |\n"
-             "|      For help, Type 'help'       |\n"
-             "|      For quit, Type 'quit'       |\n"
-             " ==================================\n")
+#    intro = ("\n =================================="
+#             "                                   \n|"
+#             "    Welcome to AirBnB Clone CLI.  |\n"
+#             "|      For help, Type 'help'       |\n"
+#             "|      For quit, Type 'quit'       |\n"
+#             " ==================================\n")
     prompt = "(hbnb) "
     __classes = {"BaseModel", "User", "Place",
                  "State", "City", "Amenity", "Review"}
