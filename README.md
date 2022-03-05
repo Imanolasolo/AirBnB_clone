@@ -147,7 +147,27 @@ $
 -   **`all`**  - Prints all string representation of all **`instances`** based or not on the class name.
 -   **`update`**  - Updates an **`instance`** based on the class name and id by adding or updating attribute (save the change into the `JSON` file).
 
+## Tasks
+	
+## Testing :straight_ruler:
 
+Unittests for the `AirBnB_clone Project` are defined in the [tests](./tests) 
+folder. To run the entire test suite simultaneously, execute the following command:
+
+```
+$ python3 unittest -m discover tests
+```
+
+Alternatively, you can specify a single test file to run at a time:
+
+```
+$ python3 unittest -m tests/test_console.py
+```
+
+![testing](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/Unittest.gif?raw=true)
+	
+	
+	
 ## Credits
 
 ## Author(s):blue_book:
