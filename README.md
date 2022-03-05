@@ -4,9 +4,11 @@
 Thank you for visiting this repository which contain the `first step` towards building first `full web application`: the `AirBnB clone`. 
 <div style="text-align: justify">
 	
+![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
+	
 The project currently only implements the back-end `console`. The goal of the project is to deploy on your server a simple copy of the `AirBnB website`.
 
-![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
+![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/server_side_back-end.png?raw=true)
 	
 # Getting Started :running:	
 <div style="text-align: justify">
