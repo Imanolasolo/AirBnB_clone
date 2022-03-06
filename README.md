@@ -38,9 +38,19 @@ The tasks in this repository cover:
 | **Public Instance Methods** |*`save`*<br>*`to_dict`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|
 | **Public Class Attributes** | | | *`email`*<br>*`password`*<br>*`first_name`*<br>*`last_name`*|*`city_id`*<br>*`user_id`*<br>*`name`*<br>*`description`*<br>*`number_rooms`*<br>*`number_bathrms`*<br>*`max_guest`*<br>*`price_by_night`*<br>*`latitude`*<br>*`longitude`*<br>*`amenity_ids`*|*`name`*|*`state_id`*<br>*`name`*|*`name`*| *`place_id`*<br>*`user_id`*<br>*`text`*| 
 | **Private Class Attributes** | |*`file_path`*<br>*`objects`*| | | | | | |
-	
-## Requirements 
 
+	
+- **`Model of Inheritation_Level.png:`**
+	
+<p align="center">
+  <img 
+        src="https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/pseudocodes/Inheritation_Level.png?raw=true"
+  >
+</p>
+	
+
+	
+	
 ## Resources :books:
 
 **Read or watch** :
@@ -60,6 +70,7 @@ The tasks in this repository cover:
 - [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)	
 - [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 
+## Requirements
 	
 ## General :page_with_curl:
 	
@@ -97,13 +108,7 @@ The tasks in this repository cover:
 	
 - Clone this repository: `git clone "https://github.com/Alexoat76/AirBnB_clone"`	
 - Access AirBnb directory: `cd AirBnB_clone.`
-	
-## Usage :pushpin:
-	
-### Execution: :floppy_disk:
-	
-The shell should `work` like this in `interactive mode`:
-	
+
 ```
 $ ./console.py
 (hbnb) help
@@ -161,6 +166,19 @@ $
 -   **`update`**  - Updates an **`instance`** based on the class name and id by adding or updating attribute (save the change into the `JSON` file).
 
 ## Tasks
+
+- **`Process diagram:`**
+	
+![process](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/pseudocodes/Process_diagram.png?raw=true)
+
+- **`Class_relationship (UML):`**
+
+<p align="center">
+  <img 
+        src="https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/pseudocodes/class_relationship.png?raw=true"
+  >
+</p>
+
 	
 ### Testing :straight_ruler:
 
