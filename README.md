@@ -16,6 +16,8 @@ The project currently only implements the back-end `console`. The goal of the pr
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
+* [Pseudocodes](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/pseudocodes)
+* [Workbook](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/obsidian)	
 * [Tasks](#tasks)
 * [Credits](#credits)
 
@@ -48,9 +50,6 @@ The tasks in this repository cover:
   >
 </p>
 	
-
-	
-	
 ## Resources :books:
 
 **Read or watch** :
@@ -70,6 +69,12 @@ The tasks in this repository cover:
 - [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)	
 - [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 
+## **NOTE:** :notebook:
+
+- Our **`Workbook`** is created as .md type notes, we have used the **`OBSIDIAN`** application to be able to view and edit our notes.
+In case the reader of this repository wants to view our workbook, please download the **`OBSIDIAN`** application from this [link](https://obsidian.md/download).
+
+	
 ## Requirements
 	
 ## General :page_with_curl:
