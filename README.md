@@ -16,9 +16,10 @@ The project currently only implements the back-end `console`. The goal of the pr
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
-* [Pseudocodes](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/pseudocodes)
-* [Workbook](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/obsidian)	
+
 * [Tasks](#tasks)
+	* [Workbook](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/obsidian)
+	* [Pseudocodes](https://github.com/Alexoat76/AirBnB_clone/tree/main/assets/pseudocodes)
 * [Credits](#credits)
 
 	
