@@ -70,9 +70,9 @@ The tasks in this repository cover:
 - [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)	
 - [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 
-## **NOTE:** :notebook:
+#### **NOTE:** :notebook:
 
-- Our **`Workbook`** is created as .md type notes, we have used the **`OBSIDIAN`** application to be able to view and edit our notes.
+Our **`Workbook`** is created as `.md` type notes, we have used the **`OBSIDIAN`** application to be able to view and edit our notes.
 In case the reader of this repository wants to view our workbook, please download the **`OBSIDIAN`** application from this [link](https://obsidian.md/download).
 
 	
