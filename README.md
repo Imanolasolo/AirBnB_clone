@@ -154,7 +154,6 @@ EOF  help  quit
 (hbnb) 
 $
 ```	
-
 	
 ### Console Commands: :clipboard:
 	
@@ -185,7 +184,9 @@ $
   >
 </p>
 
-	
+
+![console_work](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/Console_work.gif?raw=true)	
+		
 ### Testing :straight_ruler:
 
 Unittests for the `AirBnB_clone Project` are defined in the [tests](./tests) 
