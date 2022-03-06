@@ -175,7 +175,7 @@ $
 
 <p align="center">
   <img 
-        src="https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/pseudocodes/class_relationship.png?raw=true"
+        src="https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/pseudocodes/Class_relationship.png?raw=true"
   >
 </p>
 
