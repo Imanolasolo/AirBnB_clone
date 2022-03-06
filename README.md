@@ -81,7 +81,7 @@ The tasks in this repository cover:
 - Allowed editors: `vi`, `vim`, `emacs`.
 - All files should end with a new line.	
 - All test files should be inside a folder `tests`.
-- You have to use the unittest module.
+- You have to use the [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest).
 - All test files should be python files `(extension: .py)`.
 - All test files and folders should start by `test_`.
 - The file organization in the tests folder should be the same as your project.
@@ -147,12 +147,17 @@ $
 	
 ### Console Commands: :clipboard:
 	
-**`console.py`** - The console contains the entry point of the command interpreter. List of commands this console supports:
+**`console.py`** - The console contains the entry point of the command interpreter. <br>
+	
+*`List of commands this console supports:`*
+-   **`help`**  - Displays all commands available.
 -   **`quit`**  - Exits console.
+-   **`EOF`**  - **`CTRL + D`** Exits console.
 -   **`create`**  - Creates a new **`instance`** of `BaseModel`, saves it (to the `JSON` file) and prints the `id`.
 -   **`destroy`**  - Deletes an **`instance`** based on the class name and `id` (save the change into the `JSON` file).
 -   **`show`**  - Prints the string representation of an **`instance`** based on the class name and `id`.
 -   **`all`**  - Prints all string representation of all **`instances`** based or not on the class name.
+-   **`count`** - Returns count of objects in specified class.
 -   **`update`**  - Updates an **`instance`** based on the class name and id by adding or updating attribute (save the change into the `JSON` file).
 
 ## Tasks
