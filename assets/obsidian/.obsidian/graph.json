@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "path:Files",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Files/tests",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Files/models",
+      "color": {
+        "a": 1,
+        "rgb": 4402575
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.435897435897436,
+  "repelStrength": 8.70588235294118,
+  "linkStrength": 0.700854700854701,
+  "linkDistance": 30,
+  "scale": 0.7132754626224472,
+  "close": true
+}
