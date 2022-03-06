@@ -27,9 +27,17 @@ The tasks in this repository cover:
 - Set up in place a `parent class` (called `BaseModel`) to take care of the `initialization`, `serialization` and `deserialization` of future instances.
 - Create a simple flow of serialization/deserialization: Instance <-> `Dictionary` <-> `JSON string` <-> file.
 - Create `all classes` used for AirBnB (`User`, `State`, `City`, `Place`…) that inherit from `BaseModel`.
-- Create the first abstracted storage engine of the project: File `storage`.
+- Create the first abstracted storage engine of the project: `File storage`.
 - Create all `unittests` to `validate` all classes and storage engine.
 
+#### `AirBnB_clone` use the following classes and attributes:
+
+|  	      |  BaseModel  | FileStorage |     User     |    Place    |    State    |    City     |   Amenity   |    Review   |
+| ----------- | ----------- | ----------- | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| **Public Instance Attributes** |*`id`*<br>*`created_at`*<br>*`updated_at`*||*Inherits from `BaseModel`*|*Inherits from `BaseModel`*|*Inherits from `BaseModel`*|*Inherits from `BaseModel`*|*Inherits from `BaseModel`*|*Inherits from `BaseModel`*|
+| **Public Instance Methods** |*`save`*<br>*`to_dict`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|*`all`*<br>*`new`*<br>*`save`*<br>*`reload`*|
+| **Public Class Attributes** | | | *`email`*<br>*`password`*<br>*`first_name`*<br>*`last_name`*|*`city_id`*<br>*`user_id`*<br>*`name`*<br>*`description`*<br>*`number_rooms`*<br>*`number_bathrms`*<br>*`max_guest`*<br>*`price_by_night`*<br>*`latitude`*<br>*`longitude`*<br>*`amenity_ids`*|*`name`*|*`state_id`*<br>*`name`*|*`name`*| *`place_id`*<br>*`user_id`*<br>*`text`*| 
+| **Private Class Attributes** | |*`file_path`*<br>*`objects`*| | | | | | |
 	
 ## Requirements 
 
