@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "11ad8509b1884f59",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fbc59d8cd4dadec",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "707a501303c3c0c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "14923149c4e72a87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d7f3557375cd990",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8ef4b2aee1c276db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4bfb422ac92ac023",
+    "type": "split",
+    "children": [
+      {
+        "id": "78de07d791497532",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb333afedb47897e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f002a0e75f5618e",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "9066fd5bac07c3ea",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8fbc59d8cd4dadec",
+  "lastOpenFiles": [
+    "Files/tests/holberton_test/test_save_reload_user.py.md",
+    "Files/tests/holberton_test/test_save_reload_base_model.py.md",
+    "Files/tests/holberton_test/test_base_model.py.md",
+    "Files/tests/holberton_test/test_base_model_dict.py.md",
+    "Files/tests/test_models/test_user.py.md",
+    "Files/tests/test_models/test_state.py.md",
+    "Files/tests/test_models/test_amenity.py.md",
+    "Files/tests/test_models/test_review.py.md",
+    "Files/tests/test_models/test_place.py.md",
+    "Files/tests/test_models/test_city.py.md"
+  ]
+}
