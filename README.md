@@ -170,6 +170,14 @@ $
 -   **`count`** - Returns count of objects in specified class.
 -   **`update`**  - Updates an **`instance`** based on the class name and id by adding or updating attribute (save the change into the `JSON` file).
 
+### Serialization and Deserialization Process: :heavy_check_mark:	
+
+<p align="center">
+  <img 
+        src="https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/Serialization_Deserialization_process.png?raw=true"
+  >
+</p>	
+	
 ## Tasks
 
 - **`Process diagram:`**
