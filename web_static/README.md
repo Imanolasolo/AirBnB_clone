@@ -141,8 +141,254 @@ Requirements:
     - The layout must be exactly the same as `1-index.html`
 	
 **Dependences**:
+
+- [2-common.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-common.css) : for global style (i.e. the body style)
+
+- [styles/2-header.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-header.css): for header style
+
+- [styles/2-footer.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-footer.css): for footer style
+
+**3. Zoning done!**
+
+Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
+
+Layout:
+
+    Common:
+
+        - no margin
+        - no padding
+        - font color: #484848
+        - font size: 14px
+        - font family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        - icon in the browser tab
+    Header:
+        - color: white
+        - height: 70px
+        - width: 100%
+        - border bottom 1px #CCCCCC
+        - logo align on left and center vertically (20px space at the left)
+    Footer:
+        - color white
+        - height: 60px
+        - width: 100%
+        - border top 1px #CCCCCC
+        - text Best School center vertically and horizontally
+        - always at the bottom at the page
+Requirements:
+
+    - No inline style
+    - You are not allowed to use the img tag
+    - You are not allowed to use the style tag in the head tag
+    - All images must be stored in the images folder
+    - You must have 3 CSS files
+
+**Dependences:**  
+
+[3-index.html](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/3-index.html) Main file 
+
+[styles/3-common.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/3-common.css) for the global style (i.e body style)
+
+[styles/3-header.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/3-header.css) for the header style
+
+[styles/3-footer.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/3-footer.css) for the footer style
+
+**4. Search!**
+
+Write an HTML page that displays a header, footer and a filters box with a search button.
+
+Layout: (based on `3-index.html`)
+
+    - Container:
+
+        - between header and footer tags, add a div:
+
+        - classname: container
+
+        - max width 1000px
+
+        - margin top and bottom 30px - it should be 30px under the bottom of the header (screenshot)
+
+        - center horizontally
+
+    - Filter section:
+
+        - tag section
+
+        - classname filters
+
+        - inside the .container
+
+        - color white
+
+        - height: 70px
+
+        - width: 100% of the container
+
+        - border 1px #DDDDDD with radius 4px
+
+    Button search:
+
+        - tag button
+
+        - text Search
+
+        - font size: 18px
+
+        - inside the section filters
+
+        - background color #FF5A5F
+
+        - text color #FFFFFF
+
+        - height: 48px
+
+        - width: 20% of the section filters
+
+        - no borders
+
+        - border radius: 4px
+
+        - center vertically and at 30px of the right border
+
+        - change opacity to 90% when the mouse is on the button
+
+Requirements:
+
+    - You must use: header, footer, section, button tags
+
+    - No inline style
+
+    - You are not allowed to use the img tag
+
+    - You are not allowed to use the style tag in the head tag
+
+    - All images must be stored in the images folder
+
+    - You must have 4 CSS files
+
+**Dependences:** 
+
+[4-index.html](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/4-index.html) Main file
+
+[styles/4-common.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/4-common.css) for the global style (body and .container styles)
+
+[styles/4-filters.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/4-filters.css) for the filters style
+
+4-index.html won’t be W3C valid, don’t worry, it’s temporary
+
+**5. More filters**
+
+Write an HTML page that displays a header, footer and a filters box.
+
+- Layout: (based on 4-index.html)
+
+    - Locations and Amenities filters:
+        - tag: div
+
+        - classname: locations for location tag and amenities for the other
+
+        - inside the section filters (same level as the button Search)
+
+        - height: 100% of the section filters
+
+        - width: 25% of the section filters
+
+        - border right #DDDDDD 1px only for the first left filter
+
+        - contains a title:
+
+        - tag: h3
+
+        - font weight: 600
+
+        - text States or Amenities
+
+        - contains a subtitle:
+
+        - tag: h4
+
+        - font weight: 400
+
+        - font size: 14px
+
+        - text with fake contents
+
+**Dependences:** 
+
+[5-index.html](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/5-index.html) Main file
+
+[styles/5-filters.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/5-filters.css) for the filters style
+
+6. It's (h)over
+
+Write an HTML page that displays a header, footer and a filters box with dropdown.
+
+- Layout: (based on 5-index.html)
+
+    - Update Locations and Amenities filters to display a contextual dropdown when the mouse is on the filter - div:
+
+        - tag ul
+
+        - classname popover
+
+        - text should be fake now
+
+        - inside each div
+
+        - not displayed by default
+
+        - color #FAFAFA
+
+        - width same as the div filter
+
+        - border #DDDDDD 1px with border radius 4px
+
+        - no list display
+
+        - Location filter has 2 levels of ul/li:
+
+            - state -> cities
+
+            - state name must be display in a h2 tag (font size 16px)
+
+**Dependences:** 
+
+[6-index.html](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/6-index.html) Main file
+
+[styles/6-filters.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/6-filters.css) for the filters style
+
+**7. Display results**
+
+Write an HTML page that displays a header, footer, a filters box with dropdown and results.
+
+- Layout: (based on 6-index.html)
+
+    - Add Places section:
+        - tag: section
+        - classname: places
+        - same level as the filters section, inside .container
+        - contains a title:
+            - tag: h1
+            - text: Places
+            - align in the top left
+            - font size: 30px
+        - contains multiple “Places” as listing (horizontal or vertical) describe by:
+            - tag: article
+            - width: 390px
+            - padding and margin 20px
+            - border #FF5A5F 1px with radius 4px
+            - contains the place name:
+                - tag: h2
+                - font size: 30px
+                - center horizontally
+
 	
-	
+**Dependences:** 
+
+[6-index.html](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/6-index.html) Main file
+
+[styles/6-filters.css:](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/6-filters.css) for the filters style	
 ## Credits
 
 ## Author(s):blue_book:
