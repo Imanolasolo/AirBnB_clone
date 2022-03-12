@@ -7,9 +7,8 @@ Thank you for visiting this repository which contain the `second step` towards b
 ![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
 	
 The project currently only implements the front-end `static web`. The goal of the project is to deploy on your server a simple copy of the `AirBnB website`.
+![image](https://user-images.githubusercontent.com/86312558/158035254-680f52e7-bbfb-4c21-967e-514f1008febc.png)
 
-![hbnb](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/server_side_back-end.png?raw=true)
-	
 # Getting Started :running:	
 <div style="text-align: justify">
 	
@@ -137,15 +136,12 @@ Requirements:
 
     - No inline styling
 
-    - You must have 3 CSS files:
-
-    - [2-common.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-common.css) : for global style (i.e. the body style)
-
-    - [styles/2-header.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-header.css): for header style
-
-    - [styles/2-footer.css](https://github.com/Imanolasolo/AirBnB_clone/blob/main/web_static/styles/2-footer.css): for footer style
-
-    - The layout must be exactly the same as 1-index.html
+    - You must have 3 CSS files
+	 
+    - The layout must be exactly the same as `1-index.html`
+	
+**Dependences**:
+	
 	
 ## Credits
 
